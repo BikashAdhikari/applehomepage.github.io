@@ -1,0 +1,109 @@
+body {
+    font-family: 'San Francisco';
+    font-weight: 400;
+    src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff');
+}
+body{
+    background-color: #fafafa;
+    font-family: 'San Francisco';
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: grid;
+/*    if someone is expanding the page then nav bar will adjust itself*/
+    grid-template-columns: 1fr;
+/*    nav bar color: black*/
+    background-color: #323232;
+/*    transparency*/
+    opacity:.96;
+/*    nav bar height*/
+    height: 2.7em;
+    width: 100%;
+/*    text color*/
+    color: #fafafa;
+/*    menu items at centre*/
+    text-align: center;
+    align-items: center;
+/*    nav bar won't move when we scroll'*/
+    position: fixed;
+}  
+/*responsible for distance among nav bar items or menus*/
+.header >div >span {
+    padding-right: 3em;
+    padding-left: 3em;
+}
+.header >div >span:hover {
+    color: #959595;
+}
+.xcontainer {
+    text-align: center;
+    color: #111111;
+    padding-top: 8em;
+    
+}
+#x {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+#xhello {
+    margin-top: .5em;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.watchcontainer {
+    
+    text-align: center;
+    margin-top: .8em;
+}
+
+#imagination {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+#shopwatch {
+    font-size: 27px;
+    font-weight: 500;
+}
+.macgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
